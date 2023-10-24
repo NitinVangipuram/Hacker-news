@@ -1,0 +1,54 @@
+.heading-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.comment {
+    word-wrap: break-word;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+p{
+    margin: 0;
+} 
+  
+.info{
+    color:#FF4545
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:#FF4545;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        font-size: 18px;
+    }
+    
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    
+}
+.comment code {
+    display: block; /* Ensure the <code> tag is displayed as a block element */
+    overflow-wrap: break-word; /* Wrap the content to the next line if it overflows */
+    white-space: pre-wrap; /* Preserve line breaks within the <code> tag */
+  }
